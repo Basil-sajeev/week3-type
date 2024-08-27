@@ -5,8 +5,9 @@ import Image from 'next/image';
 
 const Booking :React.FC= () => {
 
-    function myFunction() {
+    function myFunction():void {
         var book = document.getElementById("book");
+        if(book instanceof HTMLElement)
         if (book.style.display === "flex") {
             book.style.display = "none";
         } else {
@@ -17,6 +18,7 @@ const Booking :React.FC= () => {
 
         function myFunction1() {
             var book1=document.getElementById("book1");
+            if(book1 instanceof HTMLElement)
             if(book1.style.display==="block"){
               book1.style.display="none";
             }
@@ -28,6 +30,7 @@ const Booking :React.FC= () => {
         function myFunction2(){
         
           var book2=document.getElementById("book2");
+          if(book2 instanceof HTMLElement)
             if(book2.style.display==="block"){
               book2.style.display="none";
             }
@@ -58,10 +61,10 @@ const Booking :React.FC= () => {
                 <div className={styles.in}><Image id="ic" src="/images/map.svg" alt='map' width={12} height={12} />
                  <input type="text" id="location" placeholder="Al Quoz"/></div>
               <div className={styles.in}><Image src="/images/date.svg"  alt='date' width={12} height={12}  />
-              <input type="datetime" id="pickup-date" value="2023/10/30   09:00  am"/>
+              <input type="datetime" id="pickup-date" value="2023/10/30   09:00  am" />
               </div>
                 <div className={styles.in}><Image src="/images/date.svg" alt='date'  width={12} height={12}  /> 
-                  <input type="datetime" id="dropoff-date" value="2023-11-29  09:00  am"/>
+                  <input type="datetime" id="dropoff-date" value="2023-11-29  09:00  am" />
               </div>
                 <button id="search_btn"><Image src="/images/clarity_search-line.svg" alt='line' width={20} height={20} /></button>
                 <Image src="/images/Line 61.svg"  width={50} height={40}  alt={'line'}/>

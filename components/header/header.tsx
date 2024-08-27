@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Header : React.FC = () => {
 
-    function toggleMenu(){
+    function toggleMenu(){:
         const head=document.getElementById("head1");
         if(head){
           head.style.display = head.style.display === 'flex' ? 'none' : 'flex';
