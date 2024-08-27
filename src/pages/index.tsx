@@ -7,6 +7,7 @@ import Booking from "../../components/main/booking/booking";
 import Subscriber from "../../components/main/subscriber/subscriber";
 import Locations from "../../components/main/locations/locations";
 import Questions from "../../components/main/questions/questions";
+import Steps from "../../components/main/steps/steps";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Booking />
       <Banner />
       <Subscriber/>
+      <Steps />
       <Locations/>
       <Questions/>
       <Footer />
