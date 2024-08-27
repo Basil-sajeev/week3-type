@@ -100,11 +100,11 @@ const Booking :React.FC= () => {
 
     <div id="book2">
                 
-    <div className={styles.drop}><div className={styles.drop1}><Image id="ic" src="/images/map.svg"width={12} height={12}/><a href="">Pickup Location</a><Image src="/images/dropred.svg" width={12} height={12}/></div></div>    
-    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/map.svg" width={12} height={12}/><a href="">Drop off Location</a><Image src="/images/dropred.svg" width={12} height={12}/></div></div>    
+    <div className={styles.drop}><div className={styles.drop1}><Image id="ic" src="/images/map.svg"width={12} height={12} alt={'map'}/><a href="">Pickup Location</a><Image src="/images/dropred.svg" width={12} height={12} alt={'dropdown'}/></div></div>    
+    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/map.svg" width={12} height={12} alt={'map'} /><a href="">Drop off Location</a><Image src="/images/dropred.svg" width={12} height={12} alt={'dropdown'}/></div></div>    
 
-    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg"width={12} height={12}/><a href="">Pick-Up Date & Time</a></div></div>    
-    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg"width={12} height={12}/><a href="">Drop off  Date & time</a></div></div>    
+    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg"width={12} height={12}  alt={'date'}/><a href="">Pick-Up Date & Time</a></div></div>    
+    <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg"width={12} height={12} alt={'date'} /><a href="">Drop off  Date & time</a></div></div>    
 
 
 </div>
