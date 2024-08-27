@@ -66,8 +66,8 @@ const Booking :React.FC= () => {
                 <div className={styles.in}><Image src="images/date.svg" alt='date'  width={12} height={12}  /> 
                   <input type="datetime" id="dropoff-date" value="2023-11-29  09:00  am" />
               </div>
-                <button id="search_btn"><Image src="/images/clarity_search-line.svg" alt='line' width={20} height={20} /></button>
-                <Image src="/images/Line 61.svg"  width={50} height={40}  alt={'line'}/>
+                <button id="search_btn"><Image src="images/clarity_search-line.svg" alt='line' width={20} height={20} /></button>
+                <Image src="images/Line 61.svg"  width={50} height={40}  alt={'line'}/>
                 <button id="quick-book-btn">Quick Book</button>
             </div>
 
