@@ -17,14 +17,14 @@ const Header : React.FC = () => {
         <header className = {styles.header} >
     
         <div className={styles.ellipse}>
-             <Image id="ca" src="/images/Layer_1.svg" alt={'banner'} width={500} height={50} />
+             <Image id="ca" src="images/Layer_1.svg" alt={'banner'} width={500} height={50} />
             <div className={styles.top}>
                  <div className={styles.social}>
                      <div className={styles.social1}>
-            <div className={styles.social11}><a href=""><Image src="/images/facew.svg" alt="Facebook" width={20} height={20} /></a></div>
-            <div className={styles.social11}><a href=""><Image src="/images/xw.svg" alt="Twitter" width={20} height={20} /></a></div>
-            <div className={styles.social11}><a href=""><Image src="/images/instaw.svg" alt="Instagram"  width={20} height={20} /></a></div>
-            <div className={styles.social11}><a href=""><Image src="/images/linkw.svg" alt="LinkedIn" width={20} height={20} /></a></div>
+            <div className={styles.social11}><a href=""><Image src="images/facew.svg" alt="Facebook" width={20} height={20} /></a></div>
+            <div className={styles.social11}><a href=""><Image src="images/xw.svg" alt="Twitter" width={20} height={20} /></a></div>
+            <div className={styles.social11}><a href=""><Image src="images/instaw.svg" alt="Instagram"  width={20} height={20} /></a></div>
+            <div className={styles.social11}><a href=""><Image src="images/linkw.svg" alt="LinkedIn" width={20} height={20} /></a></div>
         </div>
     
     <div className={styles.head} id="head1">
@@ -36,7 +36,7 @@ const Header : React.FC = () => {
           <div className={styles.nav}> <a className={styles.top} href="">Personal</a></div>
           <div className={styles.nav}><a className={styles.top} href="">Locations</a></div>
            <div className={styles.nav}> <a className={styles.top} href="">Contact Us</a></div>
-          <div className={styles.nav}> <Image className={styles.head2} src="/images/Group 1171275109.svg" width={100} height={20} alt="Group" /></div>
+          <div className={styles.nav}> <Image className={styles.head2} src="images/Group 1171275109.svg" width={100} height={20} alt="Group" /></div>
           </div>
           <div className={styles.hamburger} onClick={toggleMenu}>&#9776;
 
