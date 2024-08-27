@@ -96,8 +96,8 @@ const Booking :React.FC= () => {
         </div>
 
         <div id="book1">
-            <div className={styles.drop}><div className={styles.drop1}><Image id="ic" src="/images/map.svg" alt='map' width={12} height={12}/><a href="">Pickup Location</a><Image src="images/dropred.svg" width={12} height={12}/></div></div>    
-            <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg" alt='date' width={12} height={12}/><a href="">Pick-Up Date & Time</a><Image src="images/dropred.svg"  width={12} height={12} /></div></div>    
+            <div className={styles.drop}><div className={styles.drop1}><Image id="ic" src="/images/map.svg" alt='map' width={12} height={12}/><a href="">Pickup Location</a><Image src="images/dropred.svg" alt='map' width={12} height={12}/></div></div>    
+            <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg" alt='date' width={12} height={12}/><a href="">Pick-Up Date & Time</a><Image src="images/dropred.svg" alt='map' width={12} height={12} /></div></div>    
             <div className={styles.drop}><div className={styles.drop1}><Image src="/images/date.svg" alt='date' width={12} height={12}/><a href="">Drop off  Date & time</a></div></div>    
     </div>
 
