@@ -1,0 +1,95 @@
+#mit img{
+    width: 100%;
+
+}
+
+
+
+.mitsubhi{
+    display: flex;
+
+}
+
+.mit1{
+
+   display: flex;
+   gap: 20px;
+}
+
+.mit2{
+
+    display: flex;
+    gap: 20px;  
+}
+.mit121{
+    display: flex;
+}
+.mit1211{
+    display: flex;
+    gap: 4px;
+}
+
+.mit1221{
+    display: flex;
+}
+.mitp{
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18.5px;
+text-align: left;
+
+}
+
+
+.mi{
+    background: #E21E26;
+   min-width:30px;
+min-height: 30px;
+padding: 0px 20px 0px 20px;
+gap: 8px;
+border-radius: 15px;
+opacity: 0px;
+color: #fff;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: center;
+
+}
+
+
+
+@media(max-width:1024px){
+
+    .mit1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .mit2{
+        flex-direction: column;
+        gap: 0;
+    }
+    .mit11{
+        max-width: 100%;
+    }
+    .mit21{
+        width: auto;
+        max-width: 100%;
+    }
+
+
+
+
+    .scrolling{
+        overflow:auto;
+        white-space:wrap;
+    }
+
+
+
+
+
+}

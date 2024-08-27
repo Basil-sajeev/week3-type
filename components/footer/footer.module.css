@@ -1,0 +1,148 @@
+.f{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.ftt{
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ft1{
+    max-width: 560px;
+    display: flex;
+   
+    flex-direction: column;
+
+    justify-content: space-evenly;
+gap: 10px;
+    list-style: none;
+    
+  
+}
+.ft11{
+ 
+}
+
+.ft11 p{
+font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+color: #fff;
+}
+
+
+.ft121 p{
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 56.74px;
+letter-spacing: -0.035em;
+text-align: left;
+color: #fff;
+}
+
+
+.ft12{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.soc{
+
+}
+
+.soc p{
+
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+text-align:;
+color: #fff;
+}
+
+.soc1{
+    display: flex;
+    gap: 10px;
+
+}
+
+#foot{
+    color: #fff;font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;  
+
+}
+
+.ft1m{
+    display: none;
+}
+
+
+
+
+@media(max-width:1024px){
+
+
+
+
+    .ftt{
+        flex-wrap: wrap;
+    }
+
+    .ft1{
+        display: block;
+    }
+.f{
+    gap: 1px;
+}
+.ft1{
+    gap: 1px;
+}
+
+.ft12{
+    gap: 1px;
+}
+
+.ft1{
+    display: none;
+}
+.f{
+    justify-content: space-between;
+}
+.ft1m{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.ftt{
+    justify-content: center;
+}
+.ft12{
+    justify-content: center ;
+    flex-wrap: wrap;
+    
+
+}
+
+
+
+
+
+
+
+
+}

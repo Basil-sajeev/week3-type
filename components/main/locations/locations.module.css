@@ -1,0 +1,55 @@
+.loc{
+    gap: 0px;
+    opacity: 0px;
+    background: #000000;
+    max-height:325px ;
+    padding: 20px;
+    
+    
+    }
+    
+    
+    .loc h5{
+        color: #fff;
+        font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    }
+    
+    
+    
+    .loc1 p{
+        font-family: Open Sans;
+    font-size: 18.81px;
+    font-weight: 600;
+    line-height: 25.62px;
+    text-align: left;
+    color: #fff;
+    }
+    
+    
+    .loc1 ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    
+    .loc111{
+        display: inline-flex;
+        gap: 4px;
+        
+    }
+
+    
+    @media(max-width:1024px){
+        .loc1 ul{
+            flex-wrap: wrap;
+    
+        }
+
+
+
+
+    }
