@@ -17,7 +17,7 @@ const Header : React.FC = () => {
         <header className = {styles.header} >
     
         <div className={styles.ellipse}>
-             <Image id="ca" src="/images/Layer_1.svg"  width={500} height={50} />
+             <Image id="ca" src="/images/Layer_1.svg" alt={'banner'} width={500} height={50} />
             <div className={styles.top}>
                  <div className={styles.social}>
                      <div className={styles.social1}>
