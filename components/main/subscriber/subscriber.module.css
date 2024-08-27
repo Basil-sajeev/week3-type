@@ -140,7 +140,7 @@ max-width: 100%;
 
 
     .subscriber{
-        display: flex               ;
+        display: flex;
         flex-direction: column;
         flex-wrap:nowrap;
       
