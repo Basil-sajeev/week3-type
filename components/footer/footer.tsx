@@ -14,7 +14,7 @@ const Footer : React.FC = () => {
 <footer className={styles.footer}>
 
          <div className={styles.f}>
-         <Image id="ft" src="images/footer.svg" alt="Footer Logo"  width={50} height={80} />
+         <Image id="ft" src="/images/footer.svg" alt="Footer Logo"  width={50} height={80} />
      
      
      
@@ -45,11 +45,11 @@ const Footer : React.FC = () => {
          <div className={styles.soc}>
              <p>FOLLOW US ON</p>
      <div className={styles.soc1}>
-             <div className={styles.soc11}><a href=""><Image src="images/facbook.svg" alt="Facebook" width={20} height={20}/></a></div>
-             <div className={styles.soc11}><a href=""><Image src="images/x.svg"  alt="Twitter"  width={20} height={20}/></a></div>
-             <div className={styles.soc11}><a href=""><Image src="images/insta.svg"  alt="Instagram" width={20} height={20}/></a></div>
-             <div className={styles.soc11}><a href=""><Image src="images/link.svg" alt="LinkedIn" width={20} height={20}/></a></div>
-             <div className={styles.soc11}><a href=""><Image src="images/youtube.svg" alt="YouTube" width={20} height={20}/></a></div>
+             <div className={styles.soc11}><a href=""><Image src="/images/facbook.svg" alt="Facebook" width={20} height={20}/></a></div>
+             <div className={styles.soc11}><a href=""><Image src="/images/x.svg"  alt="Twitter"  width={20} height={20}/></a></div>
+             <div className={styles.soc11}><a href=""><Image src="/images/insta.svg"  alt="Instagram" width={20} height={20}/></a></div>
+             <div className={styles.soc11}><a href=""><Image src="/images/link.svg" alt="LinkedIn" width={20} height={20}/></a></div>
+             <div className={styles.soc11}><a href=""><Image src="/images/youtube.svg" alt="YouTube" width={20} height={20}/></a></div>
          </div>
          </div>
      </div>
