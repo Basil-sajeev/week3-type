@@ -145,7 +145,22 @@ color: #fff;
     }
 
     
-   
+    #quickbook{
+
+        display: block;
+padding: 3px 36px 3px 36px;
+gap: 8px;
+border-radius: 8px;
+border: 2px solid red;
+opacity: 0px;
+font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: center;
+color: #E21E26;
+background-color: #fff;
+    }
 
     .input_group{
         display: none ;
